@@ -1,0 +1,31 @@
+body
+{
+    margin: 0px;
+}
+.container
+{
+    padding-top: 20%;
+    object-position: center;
+    text-align: center;
+    
+}
+
+.container:hover
+{
+  text-shadow: 2px 2px #FF0000;  
+}
+
+#but
+{
+    position: flex;
+    width: 15%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#but:hover
+{
+    background-color: darkgreen;
+    color:black;
+}

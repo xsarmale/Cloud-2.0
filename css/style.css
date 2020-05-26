@@ -1,0 +1,83 @@
+ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.about
+{
+    background-image: url("../imagini/02.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+}
+.titleabout1
+{
+    position: relative;
+    color:white;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 25px;
+    font-family:Impact, Charcoal, sans-serif;
+}
+.titleabout2
+{
+    color: white;
+    position: relative;
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: center;
+}
+.aboutbutom
+{
+    background-color: black;
+}
+.aboutbutom:hover
+{
+    background-color: #008000;
+}
+.news
+{
+    position:relative;
+    padding-top: 5%;
+    
+}
+.newstitle
+{
+    text-align: center;
+    font-size: 30px;
+}
+.separator1
+{
+  padding-left: 45%;
+  width: 10.5%;
+}
+.file
+{
+    padding-top: 23%;
+}
+.separator2
+{
+  padding-left: 25%;
+  width: 31%;
+  height: 3%;
+}

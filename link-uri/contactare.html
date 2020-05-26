@@ -1,0 +1,36 @@
+
+<html>
+    
+    <head>
+        <title>Contactare</title>
+        <link rel="stylesheet" type="text/css" href="css/contactare.css">
+    </head>
+    
+    <body>
+        
+         <div>
+            <div ><img src="..\imagini/Logo1.png" align="left" style="width: 5%; padding-left: 5%;">
+                <ul>
+                    <li><a>Inregistrare</a></li>
+                    <li><a>Conectare</a></li>
+                    <li><a href="contactare.html" style="color:black;">Contactare</a></li>
+                    <li><a href="..\index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="conform">
+           <form action="php/contactare.php" class="form1"  method="post">
+               
+               <input type="text" id="iname" name="iname" placeholder="Nume si Prenume" ><br><br>
+               <input type="text" id="subject" name="subjesct" placeholder="Subiect" ><br><br>
+               <input type="text" id="imail" name="imail"  placeholder="Email"><br><br>
+               <textarea id="textarea1" name="textbox" rows="4" cols="50" placeholder="Introduceti Textul"></textarea><br><br>        
+               <input type="submit" value="Trimitere"  id="trimitere" name="submit" >
+                   
+           </form>
+        </div>
+        
+    </body>
+    
+</html>

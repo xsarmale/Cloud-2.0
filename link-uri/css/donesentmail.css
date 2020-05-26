@@ -1,0 +1,26 @@
+.body
+{
+    margin: 0px;
+}
+.mess
+{
+    position: float;
+    padding-top: 10%;
+    font-size: 33px;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.butt
+{
+    position: float;
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.butt:hover
+{
+  background-color: #4CAF50;
+  color: darkred;
+}

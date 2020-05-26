@@ -1,0 +1,59 @@
+<html>
+    
+    <head>
+        <title>Inregistrare</title>
+        <link rel="stylesheet" type="text/css" href="css/inregistrare.css">
+        <script src="js/script1.js"></script>
+    </head>
+    
+    <body>
+        
+        <div>
+            <img src="..\imagini/Logo1.png"  align="left" style="width: 5%; padding-left: 5%; ">
+        </div>
+        
+       <div id="sidebar" >
+            <div class="toggle-btn" onclick="toggleSidebar()">
+             <span></span>
+	         <span></span>
+	         <span></span>
+            </div>
+            <ol type="i">
+                <li><a href="../index.html" style="color:white"> Home</a></li>
+                <li><a href="conectare.html" style="color:white">Conectare</a></li>
+	        </ol>
+      </div>
+
+    <div class="container">    
+      <div id="formContect">
+          
+          <!-- titlurile de sus -->
+          <h2> Inregistrare </h2>
+          
+          <!-- imaginea de users -->
+          <div>
+              <img src="..\imagini/user.png" id="user">
+          </div>
+          
+          <!-- inregistrare form -->
+          <form  action="php/inregistrare.php" autocomplete="on" method="post" name="form1"  >
+
+                <input  name="name" type="text" placeholder="name" required><br><br>
+
+                <input name="email" type="text" placeholder="example@example.com" required><br><br>
+		 
+		        <input  name="tell" type="text" placeholder="numberphone" required><br><br>
+
+                <input id="pass1" name="pass1" type="password" placeholder="Password" required><br><br>
+
+                <input id="pass2" name="pass2" type="password" placeholder="Reinsertion Password" required><br><br>
+		
+               <form  action="php/php_functions.php" method="get" >
+                <input  id="check" name="submit" type="submit" value="Submit" />
+               </form>
+       </form>
+      </div>
+    </div>
+        
+    </body>
+</html>

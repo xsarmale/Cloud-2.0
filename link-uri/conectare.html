@@ -1,0 +1,58 @@
+<?php
+include('php/conectare.php'); // Includes Login Script
+
+if(isset($_SESSION['login_user'])){
+header("location: php/profile.php"); // Redirecting To Profile Page
+}
+
+?>
+
+<html>
+    <head>
+        <title>Conectare</title>
+        <link rel="stylesheet" type="text/css" href="css/inregistrare.css">
+        <script src="js/script1.js"></script>
+    </head>
+    
+    <body>
+        
+        <div>
+            <img src="..\imagini/Logo1.png"  align="left" style="width: 5%; padding-left: 5%; ">
+        </div>
+        
+       <div id="sidebar" >
+            <div class="toggle-btn" onclick="toggleSidebar()">
+             <span></span>
+	         <span></span>
+	         <span></span>
+            </div>
+            <ol type="i">
+                <li><a href="../index.html" style="color:white"> Home</a></li>
+                <li><a href="inregistrare.html" style="color:white">Inregistrare</a></li>
+	        </ol>
+      </div>
+
+    <div class="container">    
+      <div id="formContect">
+          
+          <!-- titlurile de sus -->
+          <h2> Conectare </h2>
+          
+          <!-- imaginea de users -->
+          <div>
+              <img src="..\imagini/user.png" id="user">
+          </div>
+          
+          <!-- Conectare form -->
+         <form id="formconnection" action="php/conectare.php" autocomplete="on" method="post" name="form1">
+          <input name="mail" type="text" placeholder="Mail" required />
+          <input name="pass" type="password" placeholder="Password" required />
+          <form action="php/conectare.php" method="get">
+               <input name="submit" type="submit" value="Conectare" id="submithover">
+          </form>
+        </form>
+      </div>
+    </div>
+        
+    </body>
+</html>
